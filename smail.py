@@ -19,10 +19,22 @@ yahoo_deutschland = ['smtp.mail.yahoo.com', 465]
 yahoo_au = ['smtp.mail.yahoo.com.au', 465]
 yahoo_nz = ['smtp.mail.yahoo.com.au', 465]
 
-o2 = ['smtp.o2.ie', 25]
-o2_uk = ['smtp.o2.co.uk', 25]
-
 aol = ['smtp.aoi.com', 587]
 
+types = '''gmail
+outlook
+office365
+yahoo
+yahoo+
+yahoo-uk
+yahoo-deutschland
+yahoo-au
+yahoo-nz'''
+
 def startGmail(type):
+    
+def types():
+    global types
+    toReturn = 'GMAIL TYPES: \n' + types
+    return(toReturn)
 def send()
