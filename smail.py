@@ -52,23 +52,26 @@ def startMail(type):
         site = office365[0]
         port = office365[1]
     elif type == '3':
-        site = 
-        port = 
-    elif type == '3a':
-        site = 
-        port = 
-    elif type == '3b':
-        site = 
-        port = 
-    elif type == '3c':
-        site = 
-        port = 
-    elif type == '3d':
-        site = 
-        port = 
-    elif type == '3e':
-        site = 
-        port = 
+        site = aol[0]
+        port = aol[1]
+    elif type == '4':
+        site = yahoo[0]
+        port = yahoo[1]
+    elif type == '4a':
+        site = yahoo_plus[0]
+        port = yahoo_plus[1]
+    elif type == '4b':
+        site = yahoo_uk[0]
+        port = yahoo_uk[1]
+    elif type == '4c':
+        site = yahoo_deutschland[0]
+        port = yahoo_deutschland[1]
+    elif type == '4d':
+        site = yahoo_au[0]
+        port = yahoo_au[1]
+    elif type == '4e':
+        site = yahoo_nz[0]
+        port = yahoo_nz[1]
     else:
         error_ = 'UNKNOWN TYPE [ ' + type + ' ]. TRY RUNNING [ types() ]'
         raise UnknownType(error_)
